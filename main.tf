@@ -9,7 +9,7 @@ module "compute" {
   source  = "app.terraform.io/Mohannad-Terraform/compute/aws"
   version = "1.0.0"
 
-  public_key_material = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDXHnAilgzdZTpDtRa3TcEYUzWXskThfoYjM7oN7DkeAQSBNzVbkmU7WU1CtQ2r7ueVRxWNpAu8SxFXje9Ufht3mkJRlUb7sSm7flzN1Jd63D59jp1n2hayUtVMeRCNIzQSdMP5GjwsMePtm6+juv+J9+FD2sEeSmjaQAl7hG5qhXZF+ARipJ0V8e3tPsbzRaLyI2oo46euVmeBXrqsVhZ3SGQjAZcfQvMxxfy1h7acctNgfcj4kPM1Hiypv1u1yJ24Z7CbrRBSxbdC6b7TjeB5StxZ5saw6+hlo7amK1BKhnkDKBl4XFBdM1lUlyGjqO9eZnvungvTzEY/c4UbxhBX mohan@LAPTOP-TJ4JNI0U"
+  public_key_material = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDISGOWnSW4LvrFlsM7oxd2FHNpSFK9LNauCcL+UPwdvuQfWO3T1XLWdBxHosUveN7nxi9/ikByPfGu1SSd7udyUXrvWFt/3f+jlYLASbp+n1NlbO1iqn8zgi38bhPrmK1kKfG+hWVcbLtOiijFsT846QF11QDL52Pm1++hSDxkExddgTZ+q+toSKwH1GC6lTQdZ7KUtnVqqR+1fssAkr8jA3bsUS7HZPr5QZyogsq+1/ViDxj1m7eHLGlm2KDZVkE32mM/ZNbbRwWH0ce9YETbFlMCg/eLcdHilv4kl1yatX946iITJB3GgW9YCtLizCQvX+h49v7c5kpGSkBmtkQv mohan@LAPTOP-TJ4JNI0U"
   public_sg           = module.networking.public_sg
   public_subnets      = module.networking.public_subnets
 }
